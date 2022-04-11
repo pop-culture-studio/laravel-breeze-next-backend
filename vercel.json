@@ -3,7 +3,7 @@
         "hnd1"
     ],
     "builds": [{
-            "src": "/api/index.php",
+            "src": "/vercel/index.php",
             "use": "vercel-php@0.5.0"
         },
         {
@@ -25,7 +25,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "/api/index.php"
+            "dest": "/vercel/index.php"
         }
     ],
     "env": {
